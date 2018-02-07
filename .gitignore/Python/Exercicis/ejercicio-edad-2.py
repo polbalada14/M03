@@ -3,5 +3,5 @@
 # 7/2/18
 
 edat=input("Introdueix la teva edat: ")
-if edat>=18 and edat<=13:
+if edat>=18 and edat<=23:
   print "Pots entrar a la sessió de joves."
