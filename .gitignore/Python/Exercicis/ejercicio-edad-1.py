@@ -3,5 +3,5 @@
 # 7/2/18
 
 edat=input("Introdueix la teva edat: ")
-IF edat>16 AND edat<18
+if edat>=15 and edat<=17:
   print "Pots entrar a la sessió de tarda."
