@@ -9,5 +9,5 @@ mano_tmp=mano_der
 mano_der=mano_izq
 mano_izq=mano_tmp
 
-print mano_der
-print mano_izq
+print "Mano Derecha" + mano_der
+print "Mano Izquierda" + mano_izq
