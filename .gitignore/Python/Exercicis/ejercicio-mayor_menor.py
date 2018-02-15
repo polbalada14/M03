@@ -12,7 +12,7 @@ else :
     if (A>B)and(A>C) :
         if B>C :
             print "A es el mes gran i C es el mes petit"
-	    else :
+        else :
             print "A es el mes gran i B es el mes petit"
     else :
         if (B>A) and (B>C) :
