@@ -7,6 +7,13 @@ cajon2="bocadillo"
 cajon3="boli"
 cajon4="bebida"
 
+print ""
+print "ANTES"
+print "Cajon 1 ->", cajon1
+print "Cajon 2 ->", cajon2
+print "Cajon 3 ->", cajon3
+print "Cajon 4 ->", cajon4
+
 cajontmp=cajon1
 cajon1=cajon3
 cajon3=cajontmp
@@ -14,7 +21,9 @@ cajontmp=cajon4
 cajon4=cajon2
 cajon2=cajontmp
 
-print "Cajon 1 ", cajon1
-print "Cajon 2 ", cajon2
-print "Cajon 3 ", cajon3
-print "Cajon 4 ", cajon4
+print ""
+print "DESPUES"
+print "Cajon 1 ->", cajon1
+print "Cajon 2 ->", cajon2
+print "Cajon 3 ->", cajon3
+print "Cajon 4 ->", cajon4
