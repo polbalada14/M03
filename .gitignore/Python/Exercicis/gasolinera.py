@@ -2,6 +2,10 @@
 # Autor: Pol Balada
 # 21/2/18
 
+#Fem que importi les comandes de LINUX i llençem la comanda clear perque el codi surti al inici del tot
+import os
+os.system("clear")
+
 # Mostrem la llista de preus
 print """Bienvenido a la gasolinera,
 ¿que tipo de gasolina quiere?
