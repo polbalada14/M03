@@ -9,7 +9,9 @@ os.system("clear")
 # Mostrem la llista de preus
 print """
 ################################################
-#__________BIENVENIDO A LA GASOLINERA__________#
+#                                              #
+#          BIENVENIDO A LA GASOLINERA          #
+#                                              #
 ################################################
 
 ¿que tipo de gasolina quiere?
@@ -32,15 +34,15 @@ if (tipo_gasolina==1) :
     if (tipo_super==1) :
         print "Ha escogido Gasolina Super Normal"
         litros=input("Introduzca los litros que desea comprar: ")
-        if litros >=0 :
-            print "Aqui solo vendemos gasolina"
+        if litros <=0 :
+            print "Ha introducido un numero erroneo."
         else :
     	    print "Ha introducido", litros , "l, el precio es de ", litros*1.5, "$"
     elif (tipo_super==2) :
         print "Ha escogido Gasolina Super Turbo"
-        litros_super_turbo=input("Introduzca los litros que desea comprar: ")
-        if litros >=0 :
-		    print "Aqui solo vendemos gasolina"
+        litros=input("Introduzca los litros que desea comprar: ")
+        if litros <=0 :
+		    print "Ha introducido un numero erroneo."
         else :
             print "Ha introducido", litros , "l, el precio es de ", litros*1.55, "$"
 # Si escriu un numero erroni de gasolina, enviem missatge d'error    else :
@@ -48,9 +50,6 @@ if (tipo_gasolina==1) :
         print "Ha introducido un numero erroneo."
 
 # Si escull gasolina SIN PLOMO (2) li preguntem quin tipus de SIN PLOMO
-
-#FALTA ACABAR ERROR DE 0 LITROS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 
 elif (tipo_gasolina==2) :
     print "Ha elegido Gasolina Sin Plomo"
@@ -61,12 +60,18 @@ elif (tipo_gasolina==2) :
 # Preguntem el tipus de gasolina SUPER, demanem els litres que voldrà i els multipliquem per el preu, ho mostrem per pantalla
     if (tipo_super==1) :
         print "Ha escogido Gasolina Sin Plomo Normal"
-        litros_sinplomo_normal=input("Introduzca los litros que desea comprar: ")
-        print "Ha introducido", litros_sinplomo_normal , "l, el precio es de ", litros_sinplomo_normal*1.6, "$"
+        litros=input("Introduzca los litros que desea comprar: ")
+        if litros <=0 :
+		    print "Ha introducido un numero erroneo."
+        else :
+            print "Ha introducido", litros , "l, el precio es de ", litros*1.6, "$"
     elif (tipo_super==2) :
         print "Ha escogido Gasolina Super Turbo"
-        litros_sinplomo_add=input("Introduzca los litros que desea comprar: ")
-        print "Ha introducido", litros_sinplomo_add , "l, el precio es de ", litros_sinplomo_add*1.65, "$"
+        litros=input("Introduzca los litros que desea comprar: ")
+        if litros <=0 :
+		    print "Ha introducido un numero erroneo."
+        else :
+            print "Ha introducido", litros , "l, el precio es de ", litros*1.65, "$"
 # Si escriu un numero erroni de gasolina, enviem missatge d'error    else :
     else :
         print "Ha introducido un numero erroneo."
@@ -82,12 +87,18 @@ elif (tipo_gasolina==3) :
 # Preguntem el tipus de gasolina SUPER, demanem els litres que voldrà i els multipliquem per el preu, ho mostrem per pantalla
     if (tipo_super==1) :
         print "Ha escogido Gasolina Diesel Normal"
-        litros_diesel_normal=input("Introduzca los litros que desea comprar: ")
-        print "Ha introducido", litros_diesel_normal , "l, el precio es de ", litros_diesel_normal*1.7, "$"
+        litros=input("Introduzca los litros que desea comprar: ")
+        if litros <=0 :
+            print "Ha introducido un numero erroneo."
+        else :
+            print "Ha introducido", litros , "l, el precio es de ", litros*1.7, "$"
     elif (tipo_super==2) :
         print "Ha escogido Gasolina Diesel Fast"
-        litros_diesel_fast=input("Introduzca los litros que desea comprar: ")
-        print "Ha introducido", litros_diesel_fast , "l, el precio es de ", litros_diesel_fast*1.75, "$"
+        litros=input("Introduzca los litros que desea comprar: ")
+        if litros <=0 :
+		    print "Ha introducido un numero erroneo."
+        else :
+            print "Ha introducido", litros , "l, el precio es de ", litros*1.75, "$"
 # Si escriu un numero erroni de gasolina, enviem missatge d'error
     else :
         print "Ha introducido un numero erroneo."
