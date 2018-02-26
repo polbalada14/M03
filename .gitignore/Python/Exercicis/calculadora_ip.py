@@ -60,5 +60,21 @@ elif (netmask==23) :
     print "La mascara es: 255.255.254.0"
 elif (netmask==24) :
     print "La mascara es: 255.255.255.0"
+elif (netmask==25) :
+    print "La mascara es: 255.255.255.128"
+elif (netmask==26) :
+    print "La mascara es: 255.255.255.192"
+elif (netmask==27) :
+    print "La mascara es: 255.255.255.224"
+elif (netmask==28) :
+    print "La mascara es: 255.255.255.240"
+elif (netmask==29) :
+    print "La mascara es: 255.255.255.248"
+elif (netmask==30) :
+    print "La mascara es: 255.255.255.252"
+elif (netmask==31) :
+    print "La mascara es: 255.255.255.254"
+elif (netmask==32) :
+    print "La mascara es: 255.255.255.255, aquesta mascara no pot navegar per internet"
 else :
-    print "No desenvolupat"
+    print "Netmask erronea"
