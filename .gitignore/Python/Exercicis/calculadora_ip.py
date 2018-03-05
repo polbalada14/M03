@@ -6,7 +6,11 @@
 import os
 os.system("clear")
 
-print "BIENVENIDO A LA CALCULADORA IP"
+#Introduim un titol XULO
+titulo="""
+ BIENVENIDO A LA CALCULADORA IP 
+"""
+print titulo.center(100, "=")
 
 netmask=input("Introdueix la netmask: ")
 
@@ -77,4 +81,4 @@ elif (netmask==31) :
 elif (netmask==32) :
     print "La mascara es: 255.255.255.255, aquesta mascara no pot navegar per internet"
 else :
-    print "Netmask erronea"
+ print "Netmask erronea"
