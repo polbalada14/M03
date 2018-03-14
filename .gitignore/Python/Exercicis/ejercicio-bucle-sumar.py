@@ -6,20 +6,22 @@
 import os
 os.system("clear")
 
-print"EJERCICIO BUCLE SUMAR"
 # Inicializaciones
 salir = "N"
 num = 1
-result = 0
+suma = 0
+print"""
+BUCLE SUMAR
+"""
 while ( salir=="N" ):
     # Hago cosas
-    print num
-
+    print num,
+    if (num<5): 
+       print "+" , 
     # Incremento
-    result = result + num
-    num = num + 1
-    
+    suma = suma + num
+    num= num +1
     # Activo indicador de salida si toca
-    if ( num > 5): # Condición de salida
+    if ( num>5 ): # Condición de salida
         salir = "S"
-        print "RESULTAT = " , result
+print "=" , suma
