@@ -5,7 +5,7 @@
 #Fem que importi les comandes de LINUX i llençem la comanda clear perque el codi surti al inici del tot
 import os
 os.system("clear")
-#Fem que importi time
+#Fem que importi time per usar el modul de temps
 import time
 
 # Inicializaciones
